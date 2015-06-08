@@ -1,0 +1,11 @@
+/* Styles go here */
+
+circle {
+
+  stroke: grey;
+  stroke-width: 1px;
+}
+
+#tooltip.hidden {
+        display: none;
+}
