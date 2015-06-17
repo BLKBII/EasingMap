@@ -82,7 +82,7 @@ var textLabels  = svg.selectAll("text")
 .attr("fill","white");
 
   function tick(e) {
-    node.each(gravity(e.alpha * 0.1))
+    node.each(gravity(e.alpha * 0.5))
         .each(collide(.5))
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
