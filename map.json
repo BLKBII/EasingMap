@@ -39,13 +39,13 @@
 {"type":"Feature","id":"38","geometry":{"type":"Point","coordinates":[4,50.83333]},"properties":{"name":"Belgium","color":"rgb(0,154,61)"}},
 {"type":"Feature","id":"39","geometry":{"type":"Point","coordinates":[8,47]},"properties":{"name":"Switzerland","color":"rgb(89,189,129)"}},
 {"type":"Feature","id":"40","geometry":{"type":"Point","coordinates":[103.8,1.366667]},"properties":{"name":"Singapore","color":"rgb(197,197,197)"}},
-{"type":"Feature","id":"41","geometry":{"type":"Point","coordinates":[15,62]},"properties":{"name":"Sweden","color":"rgb(89,189,129)"}},
+{"type":"Feature","id":"41","geometry":{"type":"Point","coordinates":[15,62]},"properties":{"name":"Sweden","color":"rgb(0,154,61)"}},
 {"type":"Feature","id":"42","geometry":{"type":"Point","coordinates":[68,48]},"properties":{"name":"Kazakhstan","color":"rgb(108,32,126)"}},
-{"type":"Feature","id":"43","geometry":{"type":"Point","coordinates":[-71,-30]},"properties":{"name":"Chile","color":"rgb(89,189,129)"}},
+{"type":"Feature","id":"43","geometry":{"type":"Point","coordinates":[-71,-30]},"properties":{"name":"Chile","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"44","geometry":{"type":"Point","coordinates":[114.10,22.15]},"properties":{"name":"Hong Kong","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"45","geometry":{"type":"Point","coordinates":[25,46]},"properties":{"name":"Romania","color":"rgb(89,189,129)"}},
 {"type":"Feature","id":"46","geometry":{"type":"Point","coordinates":[13.333,47.33333]},"properties":{"name":"Austria","color":"rgb(0,154,61)"}},
-{"type":"Feature","id":"47","geometry":{"type":"Point","coordinates":[-76,-10]},"properties":{"name":"Peru","color":"rgb(0,154,61)"}},
+{"type":"Feature","id":"47","geometry":{"type":"Point","coordinates":[-76,-10]},"properties":{"name":"Peru","color":"rgb(89,189,129)"}},
 {"type":"Feature","id":"48","geometry":{"type":"Point","coordinates":[32,49]},"properties":{"name":"Ukraine","color":"rgb(108,32,126)"}},
 {"type":"Feature","id":"49","geometry":{"type":"Point","coordinates":[10,62]},"properties":{"name":"Norway","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"50","geometry":{"type":"Point","coordinates":[51.25,25.5]},"properties":{"name":"Qatar","color":"rgb(197,197,197)"}},
@@ -71,8 +71,8 @@
 {"type":"Feature","id":"70","geometry":{"type":"Point","coordinates":[174,-42]},"properties":{"name":"New Zealand","color":"rgb(89,189,129)"}},
 {"type":"Feature","id":"71","geometry":{"type":"Point","coordinates":[38,8]},"properties":{"name":"Ethiopia","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"72","geometry":{"type":"Point","coordinates":[19.5,48.66667]},"properties":{"name":"Slovakia","color":"rgb(197,197,197)"}},
-{"type":"Feature","id":"73","geometry":{"type":"Point","coordinates":[-70.6667,19]},"properties":{"name":"Dominican Republic","color":"rgb(197,197,197)"}},
-{"type":"Feature","id":"74","geometry":{"type":"Point","coordinates":[37,1]},"properties":{"name":"Kenya","color":"rgb(197,197,197)"}},
+{"type":"Feature","id":"73","geometry":{"type":"Point","coordinates":[-70.6667,19]},"properties":{"name":"Dominican Republic","color":"rgb(89,189,129)"}},
+{"type":"Feature","id":"74","geometry":{"type":"Point","coordinates":[37,1]},"properties":{"name":"Kenya","color":"rgb(108,32,126)"}},
 {"type":"Feature","id":"75","geometry":{"type":"Point","coordinates":[35,-6]},"properties":{"name":"Tanzania","color":"rgb(197,197,197)"}}
 
 
