@@ -10,7 +10,7 @@
 {"type":"Feature","id":"09","geometry":{"type":"Point","coordinates":[-4,54]},"properties":{"name":"UK","label":"UK","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"10","geometry":{"type":"Point","coordinates":[2,46]},"properties":{"name":"France","label":"FR","color":"rgb(0,154,61)"}},
 {"type":"Feature","id":"11","geometry":{"type":"Point","coordinates":[-99,23]},"properties":{"name":"Mexico","label":"MX","color":"rgb(197,197,197)"}},
-{"type":"Feature","id":"12","geometry":{"type":"Point","coordinates":[12.833,42.8333]},"properties":{"name":"Italy","label":"IT","color":"rgb(0,154,61)"}},
+{"type":"Feature","id":"12","geometry":{"type":"Point","coordinates":[12.833,43]},"properties":{"name":"Italy","label":"IT","color":"rgb(0,154,61)"}},
 {"type":"Feature","id":"13","geometry":{"type":"Point","coordinates":[127.5,37]},"properties":{"name":"Korea","label":"KO","color":"rgb(89,189,129)"}},
 {"type":"Feature","id":"14","geometry":{"type":"Point","coordinates":[45,25]},"properties":{"name":"Saudi Arabia","color":"rgb(197,197,197)"}},
 {"type":"Feature","id":"15","geometry":{"type":"Point","coordinates":[-96,60]},"properties":{"name":"Canada","label":"CA","color":"rgb(89,189,129)"}},
