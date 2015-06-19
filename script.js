@@ -10,7 +10,7 @@ var valueByIdPopulation = [19.12,4.47,17.75,1.76,1.13,2.00,2.84,3.55,0.90,0.89,1
 
 
 var nodes;
-var policyCatLabels;
+
 
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
     width = 800 - margin.left - margin.right,
@@ -55,6 +55,8 @@ var svg = d3.select("body").append("svg")
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
 
 //Extract the data from the map.json
 d3.json("map.json", function(error, states) {
@@ -103,6 +105,11 @@ var textLabels  = svg.selectAll("text")
 .attr("text-anchor", "middle")
 .attr("fill","white");
 
+
+var policyCatLabels  = svg.selectAll("text1")
+.data(policyCats)
+.enter()
+.append("text");
 
   function tick(e) {
     node.each(gravity(e.alpha * 0.5))
@@ -300,10 +307,8 @@ node
       .start();
 //Add in labels      
 
-var policyCatLabels  = svg.selectAll("text1")
+policyCatLabels
 .data(policyCats)
-.enter()
-.append("text")
 .text(function(d) {
   return d;
 })
@@ -327,8 +332,12 @@ var policyCatLabels  = svg.selectAll("text1")
              $(".sbutton").removeClass( 'selected' );
              $(this).addClass( 'selected' );
 
-console.log(policyCatLabels);
-svg.selectAll("text1").exit().remove();
+
+policyCatLabels
+.data(policyCats)
+.text(function(d) {
+  return "";
+});
 
 //In case button is clicked before the bubbles have 'settled' stop the force
   force.stop(); 
